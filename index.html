@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--<link rel="stylesheet" href="css/icon-font.css">-->
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>iLearn | Learning Made Easy</title>
+  </head>
+
+  <body>
+    <!--Nav Bar-->
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>01</span>Partnership</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>02</span>Math Puzzles</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>03</span>Geography</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>04</span>English Grammar</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!--End Of Nav Bar-->
+
+    <header class="header">
+      <div class="header__logo-box">
+        <img src="img/logo-white.png" alt="Logo" class="header__logo" />
+      </div>
+
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Learning</span>
+          <span class="heading-primary--sub">Made Easy</span>
+        </h1>
+
+        <a href="#join-ilean-now" class="btn btn--white btn--animated"
+          >Get Started</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section class="section-about">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary" id="join-ilean-now">JOIN ILEAN NOW</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-2">
+            <!--Utility Classes-->
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              A visually attractive and effective learning platform
+            </h3>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+              ipsum sapiente aspernatur libero repellat quis consequatur ducimus
+              quam nisi exercitationem omnis earum qui.
+            </p>
+
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Presenting Education in beautiful way!
+            </h3>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores nulla deserunt voluptatum nam.
+            </p>
+
+            <a href="#section-features" class="btn-text">Explore More &rarr;</a>
+          </div>
+
+          <!--The Images Section-->
+          <div class="col-1-of-2">
+            <div class="composition">
+              <img
+                srcset="img/tutor.jpg 300w, img/tutor.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="Photo 1"
+                class="composition__photo composition__photo--p1"
+                src="img/tutor.jpg"
+              />
+
+              <img
+                srcset="img/e-learning.png 300w, img/e-learning.png 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="Photo 2"
+                class="composition__photo composition__photo--p2"
+                src="img/e-learning.png"
+              />
+
+              <img
+                srcset="img/student.jpg 300w, img/student.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="Photo 3"
+                class="composition__photo composition__photo--p3"
+                src="img/student.jpg"
+              />
+
+              <!--
+                            <img src="img/nat-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
+                            <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
+                            <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
+                            -->
+            </div>
+          </div>
+          <!--End of the Images Section-->
+        </div>
+      </section>
+
+      <!--The Features Section-->
+      <section class="section-features" id="section-features">
+        <div class="row">
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <!--<i> here is not used for Italics. It is used for Icons-->
+              <i class="feature-box__icon icon-basic-world"></i>
+              <h3
+                class="heading-tertiary u-margin-bottom-small"
+                id="partnership"
+              >
+                Partnership
+              </h3>
+              <p class="feature-box__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, ipsum sapiente aspernatur.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon icon-basic-compass"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Math Puzzles
+              </h3>
+              <p class="feature-box__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, ipsum sapiente aspernatur.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon icon-basic-map"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">Geography</h3>
+              <p class="feature-box__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, ipsum sapiente aspernatur.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon icon-basic-heart"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                English Grammar
+              </h3>
+              <p class="feature-box__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, ipsum sapiente aspernatur.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--TOURS SECTION-->
+      <section class="section-tours" id="section-tours">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Features</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--1">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1"
+                    >Evaluation</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li><strong>Enter Details</strong></li>
+                    <li>Age:</li>
+                    <li>
+                      <label for="vehicle1"> Mark Attendance</label>
+                      <input
+                        type="checkbox"
+                        id="attendance"
+                        name="attendance"
+                        value="Attendance"
+                      />
+                      <br />
+                    </li>
+
+                    <li>Information About Health Sanitation</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">
+                      <strong>Enter Details</strong>
+                    </p>
+                    &nbsp;
+                    <form action="">
+                      <label for="fname">First name:</label>
+                      <input
+                        class="form__input_1"
+                        type="text"
+                        id="fname"
+                        name="fname"
+                      /><br /><br />
+                      <label for="lname">Last name:</label>
+                      <input
+                        class="form__input_1"
+                        type="text"
+                        id="lname"
+                        name="lname"
+                      /><br /><br />
+                      <label for="vehicle1"> Mark Attendance</label>
+                      <input
+                        type="checkbox"
+                        id="attendance"
+                        name="attendance"
+                        value="Attendance"
+                      />
+                      <br />
+                    </form>
+                    <p style="margin: 20px 0 50px 0">
+                      Information About Health Sanitation
+                    </p>
+                    &nbsp;
+                    <a href="#popup" class="btn btn--white">Submit!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--2"
+                    >Campaigns</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>1. Education Value</li>
+                    <li>2. Behaviour Change</li>
+                    <li></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">
+                      1. Promoting The Vaue Of Education
+                    </p>
+                    <p class="card__price-only">
+                      2. Behaviour Change Against The Social Norms
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--3"
+                    >Q & A's</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>Survey</li>
+                    <li>Volunteers</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Student</p>
+                    <form action="">
+                      <label for="fname">First name:</label>
+                      <input
+                        class="form__input_1"
+                        type="text"
+                        id="fname"
+                        name="fname"
+                      /><br /><br />
+                      <textarea
+                        name="recommendations:"
+                        id=""
+                        cols="30"
+                        rows="5"
+                        placeholder="Enter Your recommendations here.."
+                      ></textarea>
+                    </form>
+                    <p class="card__price-only">Mentor/Tutor</p>
+                    <form action="">
+                      <label for="fname">First name:</label>
+                      <input
+                        class="form__input_1"
+                        type="text"
+                        id="fname"
+                        name="fname"
+                      /><br /><br />
+                      <label for="lname">Last name:</label>
+                      <input
+                        class="form__input_1"
+                        type="text"
+                        id="lname"
+                        name="lname"
+                      /><br /><br />
+                    </form>
+                  </div>
+                  <a href="#popup" class="btn btn--white">Submit!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="u-center-text u-margin-top-huge">
+          <a href="#contact-us-now" class="btn btn--red">Learn More</a>
+        </div>
+      </section>
+      <!--END OF SECTION TOURS-->
+
+      <!--Booking Sections-->
+      <section class="section-book" id="contact-us-now">
+        <div class="row">
+          <div class="book">
+            <div class="book__form">
+              <form action="#" class="form">
+                <div class="u-margin-bottom-medium">
+                  <h2 class="heading-secondary" id="contact-us-now">
+                    CONTACT US NOW
+                  </h2>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Full name"
+                    id="name"
+                    required
+                  />
+                  <label for="name" class="form__label">Full name</label>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="email"
+                    class="form__input"
+                    placeholder="Email address"
+                    id="email"
+                    required
+                  />
+                  <label for="email" class="form__label">Email address</label>
+                </div>
+
+                <!--Building and Styling Radio Buttons-->
+                <div class="form__group u-margin-bottom-medium">
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="small"
+                      name="size"
+                    />
+                    <label for="small" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      STUDENT
+                    </label>
+                  </div>
+
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="large"
+                      name="size"
+                    />
+                    <label for="large" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      MENTOR/TUTOR
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form__group">
+                  <button class="btn btn--red">Next step &rarr;</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Of Booking Sections-->
+    </main>
+
+    <!--
+        <section class="grid-test">
+            <div class="row">
+                <div class="col-1-of-2">
+                    Col 1 of 2
+                </div>
+                <div class="col-1-of-2">
+                    Col 1 of 2
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-2-of-3">
+                    Col 2 of 3
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-2-of-4">
+                    Col 2 of 4
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-3-of-4">
+                    Col 3 of 4
+                </div>
+            </div>
+        </section>
+        -->
+  </body>
+</html>
